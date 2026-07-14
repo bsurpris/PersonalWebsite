@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom'
 import { useState, useEffect } from 'react'
+import profileImg from '../assets/profile.jpg'
 
 function Home() {
   const fullText = "Hi I'm Brandon, a CS and Business student interested in agentic ai, machine learning, and improving user experiences"
@@ -23,7 +24,7 @@ function Home() {
       <div className="home__inner">
         
         <div className="home__profile-pic animate-in">
-          {/* Placeholder for face */}
+          <img src={profileImg} alt="Brandon Surpris" />
         </div>
 
         <h1 className="home__heading-centered animate-in animate-in--delay-1">

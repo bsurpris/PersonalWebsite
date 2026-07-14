@@ -1,6 +1,7 @@
 import photo1Img from '../assets/photo1.jpg'
 import photo2Img from '../assets/photo2.jpg'
 import photo3Img from '../assets/photo3.jpg'
+import nsbeImg from '../assets/NSBEJR.jpg'
 
 function About() {
   return (
@@ -20,10 +21,17 @@ function About() {
           </p>
 
           <p className="about__text animate-in animate-in--delay-1">
-            My experience spans full-stack development, machine learning, and engaging with diverse teams 
-            to execute successful projects. I thrive in high-growth environments where technical 
+            My experience spans full-stack development, machine learning, and engaging with diverse teams
+            to execute successful projects. I thrive in high-growth environments where technical
             precision meets rapid iteration and impactful leadership.
           </p>
+
+          <div className="about__story-photo animate-in animate-in--delay-1">
+            <img src={nsbeImg} alt="Cultivating the next generation of thinkers and builders with NSBE Jr. SoCal" />
+            <p className="about__photo-caption">
+              Cultivating the next generation of thinkers and builders with NSBE Jr. SoCal
+            </p>
+          </div>
 
         </div>
 

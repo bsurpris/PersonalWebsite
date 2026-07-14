@@ -3,7 +3,7 @@ import { useState, useEffect } from 'react'
 import profileImg from '../assets/profile.jpg'
 
 function Home() {
-  const fullText = "Hi I'm Brandon, a CS and Business student interested in agentic ai, machine learning, and improving user experiences"
+  const fullText = "Hi I'm Brandon, a CS and Business student interested in agentic AI, machine learning, and improving user experiences"
   const [displayText, setDisplayText] = useState('')
 
   useEffect(() => {
